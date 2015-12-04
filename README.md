@@ -13,7 +13,7 @@ MessageServices for dotnet library is an all in one messaging service pack. It i
             messageInfo.message.from_name = "from_name";
             messageInfo.message.subject = "subject";
             messageInfo.message.to.Add(new ToEmail() { email = "email@toemail.com", name ="to_name" , type = "to" });
-            messageInfo.template_name = "template_name"; //will send to mandrill endpoitn /messages/send_template
+            messageInfo.template_name = "template_name";
             List<Response> responses = mandril.Message.Send(messageInfo);
             
 #Prerequisite
