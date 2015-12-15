@@ -17,4 +17,4 @@ MessageServices for dotnet library is an all in one messaging service pack. It i
             List<Response> responses = mandril.Message.Send(messageInfo);
             
 #Prerequisite
-.Net framework 4.5 and later as it uses async and wait
+.Net framework 4.5 and later as it uses async and await
